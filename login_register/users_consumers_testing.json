@@ -1,0 +1,29 @@
+[
+    {
+     "email": "student@university.gr",
+    "password": "123",
+    "property": "student",
+    "fullname": "Μιχάλης Παπαδόπουλος",
+    "university": "uoa",
+    "points": "30"
+    },
+
+    {
+        "email": "student2@university.gr",
+        "password": "password456",
+        "property": "student",
+        "fullname": "Γιώργος Ιωάννου",
+        "university": "uoc"
+    },
+
+    {
+        "email": "student3@university.gr",
+        "password": "password789",
+        "property": "admin",
+        "fullname": "Μαρία Κώστα",
+        "university": "up"
+    }
+
+
+
+]
