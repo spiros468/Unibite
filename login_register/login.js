@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (user) {
                 sessionStorage.setItem('currentUser', JSON.stringify(user))
                 if(user.property == 'student'){
-                    window.location.href = 'student.html';
+                    window.location.href = '../student/student.html';
                 }
                 else{
-                    window.location.href = 'admin.html';
+                    window.location.href = '../admin/admin.html';
                 }
             } else {
                 alert('Λάθος email ή κωδικός πρόσβασης.');

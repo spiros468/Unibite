@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const userExists = localUsers.some(user => user.email === email);
         if (userExists) {
-            alert('Αυτό το ακαδημαϊκό email χρησιμοποιείται ήδη!');
+            alert('Αυτό το ακαδημαϊκό email χρησιμοποιείται ήδη');
             return;
         }
 
