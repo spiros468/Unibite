@@ -126,12 +126,12 @@
 }
 
 .search-box:focus {
-    border-color: #f60404;
+    border-color: #272727;
 }
 
 .submit-search-btn {
-    background-color: #f60404; 
-    border: 2px solid #f60404;
+    background-color: #000000; 
+    border: 2px solid #070707;
     color: white;
     padding: 0 20px;
     height: 100%; 
@@ -293,6 +293,90 @@
 
 .user-avatar-upload:hover {
     border-color: #565555; 
+}
+
+#foodFeedContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.card.shared-meal-card {
+    background-color: #333842;
+    border-radius: 12px;
+    border: 1px solid #2d2d2d;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto 0 0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 25px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.card.shared-meal-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    border-color: #3d3d3d;
+}
+
+
+.meal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px; 
+    text-align: left;
+    padding: 0;
+}
+
+
+.meal-title {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    margin: 0 0 4px 0 !important;
+}
+
+
+.meal-portions {
+    font-size: 1.05rem;
+    color: #e0e0e0;
+    margin: 0;
+}
+
+.meal-portions b {
+    color: #aaaaaa; 
+    font-weight: 600;
+}
+
+
+.meal-actions {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.meal-actions .submit-search-btn {
+    background-color: #ff1e1e; 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+}
+
+.meal-actions .submit-search-btn:hover {
+    background-color: #d11414;
 }
 
 

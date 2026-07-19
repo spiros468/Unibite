@@ -189,7 +189,7 @@
     border-color: var(--vibrant-red);
 }
 
-/* --- Κύρια Κουμπιά (Φίλτρο / Αναζήτηση) --- */
+
 .submit-search-btn {
     background-color: var(--vibrant-red); 
     border: 2px solid var(--vibrant-red);
@@ -208,10 +208,9 @@
 .submit-search-btn:hover {
     background-color: var(--vibrant-hover); 
     border-color: var(--vibrant-hover);
-    box-shadow: 0 0 12px rgba(255, 30, 30, 0.4); 
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.4); 
 }
 
-/* --- Δευτερεύοντα Κουμπιά (Μαύρα / Σκούρα Γκρι) --- */
 .sort-btn, .map-btn-link {
     height: 45px;           
     padding: 0 20px;
@@ -268,48 +267,57 @@
     gap: 10px;
 }
 
-/* --- Κουμπιά Διαχείρισης Αγγελιών / Αιτημάτων --- */
 .edit-btn { 
-    background-color: #2e3238 !important; 
-    border: 1px solid var(--border-color) !important;
+    background-color: #2e3238; 
+    border: 1px solid var(--border-color);
 }
 .edit-btn:hover { 
-    background-color: #3e4451 !important; 
+    background-color: #3e4451; 
 }
 
 .delete-btn { 
-    background-color: #3a1a1a !important; 
-    border: 1px solid #662222 !important;
-    color: #ff8888 !important;
+    background-color: #3a1a1a; 
+    border: 1px solid #662222 ;
+    color: #ff8888 ;
 }
 .delete-btn:hover { 
-    background-color: #551c1c !important; 
-    color: var(--text-white) !important;
+    background-color: #551c1c; 
+    color: var(--text-white);
 }
 
 .approve-btn { 
-    background-color: var(--vibrant-red) !important; 
-    border: 1px solid var(--vibrant-red) !important;
-    color: var(--text-white) !important;
+    background-color: var(--vibrant-red); 
+    border: 1px solid var(--vibrant-red);
+    color: var(--text-white);
 }
 .approve-btn:hover { 
-    background-color: var(--vibrant-hover) !important; 
-    border-color: var(--vibrant-hover) !important;
+    background-color: var(--vibrant-hover); 
+    border-color: var(--vibrant-hover);
     box-shadow: 0 0 10px rgba(255, 30, 30, 0.3);
 }
 
 .reject-btn { 
-    background-color: var(--input-bg) !important; 
-    border: 1px solid var(--border-color) !important;
-    color: var(--text-muted) !important;
+    background-color: var(--input-bg); 
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
 }
 .reject-btn:hover { 
-    background-color: #2e3238 !important; 
-    color: var(--text-white) !important;
+    background-color: #2e3238; 
+    color: var(--text-white);
 }
 
 .user-highlight {
     color: var(--vibrant-red);
+}
+
+.no-ads-message {
+    margin-bottom: 25px; 
+    font-style: italic;
+    text-align: center;}
+
+.create-ad-wrapper {
+    margin-top: 25px;
+    text-align: center; 
 }
 
 @media (max-width: 900px) {
@@ -337,5 +345,5 @@
         flex-direction: column;
         gap: 15px;
         text-align: center;
-    }
+   }
 }

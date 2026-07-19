@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="el">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,15 +44,15 @@
                 </div>
             
 
-                <a href="map.html" class="map-btn" style="text-decoration: none; display: flex; align-items: center; justify-content: center;">Εμφάνιση Χάρτη Γευμάτων</a>
+                <a href="map/map.html" class="map-btn" style="text-decoration: none; display: flex; align-items: center; justify-content: center;">Εμφάνιση Χάρτη Γευμάτων</a>
                 
-                <button class="sort-btn">Ταξινόμηση βάσει Απόστασης</button>
+                <button class="sort-btn" id="sortByDistanceBtn">Ταξινόμηση βάσει Απόστασης</button>
             </div>
 
             <h2 class="page-title">Διαθέσιμα Γεύματα στην Περιοχή σου</h2>
             <div class="food-list" id="foodFeedContainer">
                 
-                <p class="loading-text" style="color: #abb2bf; font-style: italic;">Φόρτωση διαθέσιμων γευμάτων...</p>
+                <p class="loading-text" style="color: #abb2bf; font-style: italic;"></p>
 
             </div>
         </section>
